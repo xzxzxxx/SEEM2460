@@ -1,0 +1,14 @@
+# Ignore virtual environment folder
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Mac system files (since you are on a Mac)
+.DS_Store
+
+# Ignore downloaded data (optional, but good practice if data is large)
+# Your groupmate can just run 01_fetch_data.py to get the data locally
+data/
+*.csv

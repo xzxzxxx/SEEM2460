@@ -1,0 +1,13 @@
+# Data handling and numerical operations
+pandas
+numpy
+
+# Data visualization
+matplotlib
+seaborn
+
+# Network analysis (For Minimum Spanning Tree / Graphs)
+networkx
+
+# Data downloading (Yahoo Finance API for historical crypto data)
+yfinance
