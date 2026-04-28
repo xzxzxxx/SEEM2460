@@ -4,12 +4,9 @@ import sys
 
 
 def run_script(script_name):
-    """
-    Run a Python script and stop if it fails.
-    """
-    print(f"\n{'=' * 60}")
+    print(f"\n{'=' * 80}")
     print(f"Running: {script_name}")
-    print(f"{'=' * 60}\n")
+    print(f"{'=' * 80}\n")
 
     result = subprocess.run([sys.executable, script_name])
 
@@ -20,10 +17,6 @@ def run_script(script_name):
 
 
 def main():
-    """
-    Run the full crypto contagion pipeline in order.
-    """
-
     scripts = [
         "01_fetch_data.py",
         "02_compute_correlations.py",
@@ -35,6 +28,9 @@ def main():
         "08_run_spearman_robustness.py",
         "09_portfolio_risk_linkage.py",
         "10_plot_results.py",
+        "11_universe_sensitivity.py",
+        "12_plot_calm_vs_stress_heatmaps.py",
+        "13_plot_calm_vs_stress_mst.py",
     ]
 
     for script in scripts:

@@ -17,7 +17,7 @@ def fetch_crypto_data():
         "XMR-USD", "ETC-USD", "BCH-USD", "XLM-USD", "ALGO-USD"
     ]
 
-    start_date = "2021-01-01"
+    start_date = "2020-01-01"
     end_date = "2024-01-01"
 
     print(f"Downloading data for {len(tickers)} cryptocurrencies from {start_date} to {end_date}...")
