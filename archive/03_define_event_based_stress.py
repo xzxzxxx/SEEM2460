@@ -17,6 +17,7 @@ def define_event_based_stress_windows():
 
     # Define known events: center date, pre-days, post-days
     events = [
+        {"event_name": "COVID_Crash",           "center_date": "2020-03-12", "pre_days": 10, "during_days": 5, "post_days": 30},
         {"event_name": "2021_May_Selloff",      "center_date": "2021-05-19", "pre_days": 10, "during_days": 5, "post_days": 20},
         {"event_name": "2021_China_Ban",        "center_date": "2021-09-24", "pre_days": 10, "during_days": 5, "post_days": 20},
         {"event_name": "2021_Year_End_Selloff", "center_date": "2021-12-04", "pre_days": 10, "during_days": 5, "post_days": 20},
